@@ -59,11 +59,11 @@ class MainActivity : AppCompatActivity() {
 
     fun exibirResultado (salario :Double, nome:String){
         if (salario > 1045 || salario == 1044.0 ) {
-            txv_Resultado.text = "$nome seu salario é de: $salario reais e já é igual ou maior que um salario minimo" +
+            txv_Resultado.text = "$nome seu salario é de: $salario reais e já é igual ou maior que um salario minimo." +
                     "\nParabéns, gaste com sabedoria!!"
             txv_Resultado.setTextColor(Color.CYAN)
         } else {
-            txv_Resultado.text = "$nome seu salario é de: $salario reais e não é maior que um salario minimo" +
+            txv_Resultado.text = "$nome seu salario é de: $salario reais e não é maior que um salario minimo." +
                     "\nInvista em conhecimento para aumentar seu valor!"
             txv_Resultado.setTextColor(Color.RED)
         }
